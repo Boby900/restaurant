@@ -1,0 +1,168 @@
+
+header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNJSmNlq4ejd0Y0xTFSp5xzLcMqhSsH3XWNw&usqp=CAU");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+i{
+    color: rgb(255, 136, 0);
+}
+header a,label{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 2em;
+    padding-left: 1em;
+    clear: both;
+}
+header nav ul li{
+    float: left;
+    width: 15%;
+    margin-left: 0.6em;
+    margin-bottom: 0.7em;
+}
+ul{
+    list-style-type: none;
+    clear: both;
+    transform: translateX(-300px);
+}
+form{
+    padding-left: 1em;
+}
+header form + ul{
+    margin-top: 2em;
+}
+header > ul li{
+    float: left;
+    width: 10%;
+}
+label{
+    background-color: rgb(255, 136, 0);
+    padding: 0.2em;
+}
+section{
+    background-image: url('https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/strawberry-milk.jpg');
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h3{
+    color: rgb(255, 136, 0);
+    font-size: 1.3rem;
+    padding-left: 5em;
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+section:first-of-type h4 ,p{
+    color: rgb(13, 13, 37);
+    font-size: 1.3em;
+    padding: 0 5em;
+    font-weight: 600;
+}
+section:first-of-type button{
+    background-image: linear-gradient(rgb(255, 136, 0)30%,rgba(255,136,0,0.8)50%);
+    color: white;
+    border: none;
+    margin-left: 20em;
+    padding: 0.5em;
+}
+.online{
+    background-color: rgb(244, 248, 251);
+    background-image:none;
+    color: rgb(13, 13, 37);
+}
+.online a{
+    color: rgb(13, 13, 37);
+    padding: 1em;
+}
+.online a:hover{
+    color: rgb(255, 136, 0);
+    border-bottom: 2px solid rgb(255, 136, 0);
+}
+.online li{
+    float: left;
+    width: 17%;
+}
+.online h3,ul{
+    margin-left: 25em;
+}
+.online ul{
+    margin-left: 30em;
+}
+.online h4{
+    margin-left: 40em;
+}
+.online > section {
+    background-image: none;
+    height: 300px;
+}
+.online > section img{
+    width: 25%;
+    float: left;
+    margin-top: 2em;
+}
+#last-container img{
+    margin-top: none;
+    width: 22%;
+    padding: 1em;
+    float: left;
+}
+.booking{
+    background-image: none;
+    clear: both;
+}
+.booking  h4, span,span em{
+    margin-left: 35em;
+    text-decoration: none;
+    font-style: normal;
+}
+span em{
+    color: rgb(255, 136, 0);
+    font-size: 1.3rem;
+    margin-left: 25em;
+}
+.booking h4{
+    font-size: 1.5rem;
+    margin-left: 22em;
+}
+.booking h3{
+    margin-left: 22em;
+}
+.booking ul li{
+    float:  left;
+    width: 40%;
+    padding: 10px;
+    transform: translateX(120px);
+}
+
+.booking ul{
+    width: 100%;
+}
+.booking img{
+    clear: both;
+    transform:translateX(300px);
+    margin-top: 2em;
+    width: 50%;
+}
+footer,footer section,footer section img{
+    clear: both;
+}
+#footer section h4{
+    margin-left: 21em;
+}
+#footer img{
+    margin-left: 33.5em;
+}
+#footer section{
+    clear: both;
+    background-image: none;
+}
